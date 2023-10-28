@@ -1,0 +1,885 @@
+body{
+
+    margin: 0;
+    padding: 0;
+
+    width: 1358px;
+    background-color: white
+}
+#header-container > h1{
+    font-size: 20px;
+}
+header{
+
+    font-family: 'Poppins', sans-serif;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: white;
+
+
+}
+.para8{
+
+    text-align: center;
+}
+#header-container{
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.home-link{
+
+    grid-column-start: 14;
+    font-weight: bold;
+    font-size: 15px;
+}
+.about-link{
+
+    grid-column-start: 15;
+    font-weight: bold;
+    font-size: 15px;
+}
+.ach-link{
+    grid-column-start: 17;
+    font-weight: bold;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: pink;
+}
+.background{
+
+    font-family: 'Poppins', sans-serif;
+    width: 1358px;
+    height: 700px;
+
+    background-image: url(images/heart2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rosybrown;
+
+}
+#para1{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+.para2{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.para2 span{
+    background-color: rosybrown;
+    border-radius: 10px;
+    border: 1px solid rosybrown;
+    box-shadow: 3px 7px gray;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.para3 .spa3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    border-bottom: 2px solid rosybrown;
+}
+.semiinfo{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.para5{
+    text-align: justify;
+    color: white;
+    line-height: 2.0;
+
+}
+
+footer{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    background-color: rosybrown;
+    color: white;
+}
+.info{
+
+    display: grid;
+    grid-template-columns: 1 1 1;
+    grid-template-rows: 1 1 1 1;
+
+    background-color: rosybrown;
+
+    grid-gap: 50px;
+
+    margin-bottom: 5%;
+
+    grid-template-areas:
+    "box2 box3 box4"
+    "box5 box6 box7"
+    "box8 box9 box10"
+    "box11 box12 box13";
+}
+.para3{
+
+    text-align: center;
+}
+.pic1{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-top: 5%;
+
+    grid-area: box2;
+}
+.pic1:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.pic2{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-top: 5%;
+
+    grid-area: box3;
+}
+.pic2:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.pic3{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-top: 5%;
+
+    grid-area: box4;
+
+}
+.pic3:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.pic4{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+
+    grid-area: box5;
+
+}
+.pic4:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.pic5{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+
+    grid-area: box6;
+
+}
+.pic5:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.pic6{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+
+    grid-area: box7;
+
+}
+.pic6:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.pic7{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+
+    grid-area: box8;
+
+}
+.pic7:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.pic8{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+
+    grid-area: box9;
+
+}
+.pic8:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.pic9{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+
+    grid-area: box10;
+
+}
+.pic9:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.pic10{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-bottom: 5%;
+
+    grid-area: box11;
+
+}
+.pic10:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.pic11{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-bottom: 5%;
+
+    grid-area: box12;
+
+}
+.pic11:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.pic12{
+
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-bottom: 5%;
+
+    grid-area: box13;
+
+}
+.pic12:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.para4{
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.para4 .spa4{
+    border-bottom: 2px solid rosybrown;
+}
+.para5{
+    color:black;
+    text-align: center;
+}
+
+/* This section is about of heart */
+
+.biog{
+
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.para6{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+
+    border-left: 3px solid rosybrown;
+}
+.pic13{
+
+    width: 400px;
+    height: 350;
+
+    border: 10px solid rosybrown;
+    border-radius: 10px;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+.pic13:hover{
+
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.para7{
+
+    text-align: justify;
+    line-height: 2.0;
+    margin-left: 23%;
+}
+.bio-container{
+
+    display: grid;
+    grid-template-columns: 1 1;
+
+    grid-template-areas: "box1 box2";
+}
+.description{
+
+    grid-area: box1;
+}
+.picofheart{
+
+   grid-area: box2;
+}
+table{
+
+    margin-left: 25%;
+    margin-top: 10%;
+    background-color: rosybrown;
+
+    border-radius: 5px;
+    border: 5px solid rosybrown;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+table:hover{
+
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.tdheader1{
+
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+
+}
+.tdheader2{
+    background-color: white;
+    padding: 5px;
+    
+}
+.tdheader3{
+
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.tdheader4{
+
+    background-color: lightgray;
+    padding: 5px;
+    
+}
+.tdheader5{
+
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.tdheader6{
+
+    background-color: white;
+    padding: 5px;
+    
+}
+.tdheader7{
+
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.tdheader8{
+
+    background-color: lightgray;
+    padding: 5px;
+    
+}
+.tdheader9{
+
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.tdheader10{
+
+    background-color: white;
+    padding: 5px;
+    
+}
+.tdheader11{
+
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.tdheader12{
+
+    background-color: lightgray;
+    padding: 5px;
+    
+}
+.tdheader13{
+
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.tdheader14{
+
+    background-color: white;
+    padding: 5px;
+    
+}
+.tdheader15{
+
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.tdheader16{
+
+    background-color: lightgray;
+    padding: 5px;
+    
+}
+.tdheader17{
+
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.tdheader18{
+
+    background-color: white;
+    padding: 5px;
+    
+}
+.tdheader19{
+
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.tdheader20{
+
+    background-color: lightgray;
+    padding: 5px;
+    
+}
+.tdheader21{
+
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.tdheader22{
+
+    background-color: white;
+    padding: 5px;
+    
+}
+
+.peepz{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 5%;
+    text-align: center;
+}
+.peepz .spa7{
+
+    border-bottom: 2px solid rosybrown;
+}
+.achievements{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+
+}
+.para9{
+
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.para9{
+
+    border-left: 3px solid rosybrown;
+}
+.vpeepz{
+
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+}
+.vpeepz .spa8{
+
+    border-bottom: 3px solid rosybrown;
+}
+.lilpeepz{
+
+    margin-top: 10%;
+}
+.lilpeepz-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    font-family: 'Poppins', sans-serif;
+    background-color: rosybrown;
+
+
+}
+.journey1{
+
+    grid-column-start: 1;
+    text-align: center;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    color: white;
+}
+.journey2{
+
+    grid-column-start: 2;
+    text-align: center;
+    color: white;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.journey-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    font-family: 'Poppins', sans-serif;
+    background-color: rosybrown;
+ 
+}
+.journey6{
+
+    grid-column-start: 1;
+    grid-row-start: 1;
+    color: white;
+
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.journey4{
+
+    grid-column-start: 2;
+    grid-row-start: 1;
+    color: white;
+
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.journey3{
+
+    grid-column-start: 1;
+    grid-row-start: 2;
+    color: white;
+
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ 
+}
+.journey5{
+
+    grid-column-start: 2;
+    grid-row-start: 2;
+    color: white;
+    border-bottom: 10%;
+
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.upeepz{
+
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+}
+.upeepz .spa9{
+
+    border-bottom: 3px solid rosybrown;
+}
+.upeepz-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    background-color: rosybrown;
+}
+.journey7{
+
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+.journey8{
+
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+.top{
+
+    position: fixed;
+}
+.ender-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    margin-top: 20%;
+
+}
+.aboutus{
+
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.buttonup{
+
+    margin-left: 80%;
+    margin-top: 38%;
+    border-radius: 50%;
+}
+.buttonup2{
+
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+.buttonup:hover{
+
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+html{
+
+    scroll-behavior: smooth;
+}
+
+/* Contact Section */
+
+.socmed{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.socmedtitle{
+
+    border-left: 3px solid rosybrown;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#hearty{
+
+    width: 400px;
+    height: 350;
+
+    border: 10px solid rosybrown;
+    border-radius: 10px;
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+#hearty:hover{
+
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.socmed-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+
+    margin-top: 10%;
+    margin-left: 10%;
+
+    font-family: 'Poppins', sans-serif;
+}
+#socmed-account{
+
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+    margin-left: 30%;
+
+}
+.aboutheart{
+
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.upeepz-contact{
+
+    align-items: center;
+
+}
+#chips{
+
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+#chips:hover{
+
+    transform: scale(1.1);
+    box-shadow: 10px 20px 30px 12px rgba(0, 0, 0, 0.25);
+}
+.chipsquote{
+
+    font-style: italic;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.heartquote{
+
+    font-style: italic;
+
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.message-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1 1;
+
+    margin-top: 10%;
+}
+#chipss{
+    margin-left: 8%;
+
+    border: 2px solid rosybrown;
+
+    line-height: 1.5;
+}
+#heartss{
+
+    border: 2px solid rosybrown;
+    padding: 2px 2px 2px 2px;
+
+    line-height: 1.5;
+
+    margin-right: 5%;
+}
